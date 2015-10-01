@@ -1,0 +1,63 @@
+.navbar-brand {
+    padding: 3px;
+}
+
+.navbar-collapse {
+    padding-right: 0;
+}
+
+.twitter-info p{
+    font-size: 16px;
+}
+.twitter-info i{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/***  Responsiveness  ***/
+@media (max-width:480px) {
+    .navbar-brand {
+        padding: 0 0 0 15px;
+    }
+}
+
+@media (max-width:400px) {
+    .navbar-brand {
+        padding-left: 0 0 0 15px;
+    }
+}
+
+@media (max-width:385px) {
+    .navbar-brand {
+        padding-left: 0 0 0 15px;
+}
+}
+
+@media (max-width:345px) {
+    .navbar-brand {
+        padding-left: 0 0 0 15px;
+    }
+}
+
+@media (max-width:335px) {
+    .navbar-brand {
+        padding-left: 0 0 0 15px;
+    }
+}
+
+@media (max-width:325px) {
+    .navbar-brand {
+        padding-left: 0 0 0 15px;
+    }
+}
+
+@media (max-width:315px) {
+    .navbar-brand {
+        padding-left: 0 0 0 15px;
+    }
+}
