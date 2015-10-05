@@ -2,6 +2,32 @@
     padding: 3px;
 }
 
+
+
+
+.main-nav .navbar-toggle {
+  border: 0;
+  background-color: rgba(0,0,0,.2);
+  -webkit-transition: background-color 400ms;
+  transition: background-color 400ms;
+}
+
+.main-nav .navbar-toggle:hover,
+.main-nav .navbar-toggle:focus {
+  background-color: rgba(0,0,0,.5);
+}
+
+.main-nav .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.main-nav .navbar-collapse,
+.main-nav .navbar-form {
+  border: 0;
+}
+
+
+
 .navbar-collapse {
     padding-right: 0;
 }
@@ -11,6 +37,9 @@
 }
 .twitter-info i{
     font-size: 12px;
+}
+#twitter-carousel .carousel-indicators {
+    top: 110%;
 }
 
 

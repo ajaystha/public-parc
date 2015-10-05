@@ -24,7 +24,7 @@ a:hover, a:focus {
 .progress-bar.progress-bar-primary,
 .single-table.featured,
 .btn.btn-primary,
-.twitter-icon .fa-bolt,
+.twitter-icon .fa-pagelines,
 .twitter-left-control:hover, .twitter-right-control:hover,
 .post-icon,
 .entry-header .date:after,
@@ -35,8 +35,8 @@ a:hover, a:focus {
 .left-control:hover,
 .right-control:hover,
 .folio-overview a:hover {
-  /*background-color:#7FBA00;*/
-  background-color:#7FC31E;
+  background-color:#7FBA00;
+  /*background-color:#7FC31E;*/
 }
 
 .twitter-left-control:hover,
@@ -51,6 +51,7 @@ a:hover, a:focus {
 	border-color: #7FBA00;
 }
 
-.twitter-icon .fa-bolt:after {
+.twitter-icon .fa-pagelines:after {
 	border-color: #7FBA00 transparent transparent;
+	/*border-color: #7FC31E transparent transparent;*/
 }
