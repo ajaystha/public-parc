@@ -14,14 +14,35 @@ jQuery(function($) {
 		$('#home-slider .item').css('height',slideHeight);
 	});
 
+
 	//Scroll Menu
 	$(window).on('scroll', function(){
-		if( $(window).scrollTop()>slideHeight ){
+		//console.log("SlideHeight: "+slideHeight);
+		//var header = document.getElementById("headd");
+    	var content = document.getElementById("services");
+		if( $(window).scrollTop()>slideHeight){
 			$('.main-nav').addClass('navbar-fixed-top');
+
+			//$('#services').css('margin-top', 10);
+			//headd.style.position = "absolute";
+	        //headd.style.top = pageYOffset + "px";
+			if( $(window).width()<= 767) {
+				content.style.marginTop = '50px'
+			} else {
+				content.style.marginTop = '80px'
+			}
 		} else {
 			$('.main-nav').removeClass('navbar-fixed-top');
+
+			//headd.style.position = "";
+	        //headd.style.top = "";
+	        content.style.marginTop = '0'
 		}
 	});
+
+
+
+
 
 	// Navigation Scroll
 	$(window).scroll(function(event) {
